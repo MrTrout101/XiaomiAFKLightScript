@@ -11,7 +11,7 @@ toastNotification = ToastNotifier()
 mouseController = Controller()
 lastMoveTime = currentTime()
 lastMousePos = mouseController.position
-timeLimit = 10
+timeLimit = 10 #AFK threshold (in seconds)
 AFK = False
 
 #Discovers Yeelight bulb's on the network
